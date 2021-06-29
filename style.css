@@ -1,32 +1,43 @@
 body{
-    margin: 0 auto;
+    margin: 0 auto;  /*убирает margin которые стоят по умолчанию*/
 }
-.header{                   
+div.header{                   
     background-color: #8C0A0D;  /*заливает цветом шапку сайта*/
     width: 100%;
     height: 71px;    
 }
-.main_conteiner{ 
+div[class^="header_item"]{ /*контейнер который содержит содержимое */
+    display: inline-block;
+    position: relative;
+    font-family: MinionPro-Bold,AdobeInvisFont,MyriadPro-Regular;
+    font-size:1.2em;
+    color: #FFE394;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+div.header_item1{ /*элемент header*/
+    top: 15px;
+    padding-left: 67px;
+ }
+div.header_item2{ /*элемент header*/
+    padding-left: 70px;
+}
+div.header_item8{  /*элемент header*/
+    padding-left: 70px;
+}
+
+.main_conteiner{              /*добавляет для главного контейнера фон и устанавливает размеры по ширине*/
     background: url(image/Слой\ 15@1X.png);
     background-size: cover;    
     width:100% ;
 }
-.img_conteiner{
+.img_conteiner{      /*Добавляет дополнительный полупрозрачный фон*/
     background-image: url(image/Прямоугольник\ 3@1X.png);
     background-size: cover;
     width: 100%;
     height: calc(100%-(71px*2));
-  }
-.footer{
-    background-color: #8C0A0D; /*заливает цветом подвал сайта*/
-    width: 100%;
-    height: 71px;
-    color: #DB8D52;
-    font-weight: bolder;
-    font-size: .85em;
-    line-height: 1.5em;
-}   
-div.roshen_in_mir{
+  }   
+div.roshen_in_mir{ /* устанавливает позицию и размеры картинки-меню с кнопкой внутри*/
     position: relative;
     width: 1167px;
     height: 336px;
@@ -42,7 +53,7 @@ div.roshen_in_mir{
     line-height: 1.8em;
     font-size: 3.3em;
 }
-.button{
+.button{                    /*описывает размеры и положение кнопки-ссылки"узнать больше"*/
     position: absolute;
     top: 107px;
     left: 490px;
@@ -57,47 +68,28 @@ div.roshen_in_mir{
     width: 190px;
     height: 43px;
 }
-a.link_button{
+a.link_button{ /*ссылка внутри кнопки "узнать больше"*/
     color: black;
     text-decoration-line: none;
 }
-div.left_arrow, div.right_arrow{
+div.left_arrow, div.right_arrow{ /*кнопки меню навигации*/
     position: relative;
     top: 130px;
 }
-div.left_arrow{
+div.left_arrow{ /*левая кнопка меню навигации*/
     float: left;
     left: 20px;
 }
-div.right_arrow{
+div.right_arrow{ /*правая кнопка меню навигации*/
     float: right;
     right: 20px;
 }
-div[class^="header_item"]{
-    display: inline-block;
-    position: relative;
-    font-family: MinionPro-Bold,AdobeInvisFont,MyriadPro-Regular;
-    font-size:1.2em;
-    color: #FFE394;
-    padding-left: 20px;
-    text-transform: uppercase;
-}
-div.header_item1{
-    top: 15px;
-    padding-left: 67px;
- }
-div.header_item2{
-    padding-left: 70px;
-}
-div.header_item8{
-    padding-left: 70px;
-}
-div.main_zagolovok{
+div.main_zagolovok{ /*контейнер который содержит заголовки статей*/
     padding-top: 54px;
     padding-left: 65px;
     font-weight: bold;
 }
-div[class^="zagolovok"]{
+div[class^="zagolovok"]{ /*стили для элементов контейнера который содержит заголовки статей*/
     display: inline-block;
     vertical-align: top;
 }
@@ -117,12 +109,12 @@ div.zagolovok4{
     width: 249px;
     padding-left: 62px;
 }
-div.main_content{   
+div.main_content{    /*контейнер который содержит содержит статьи*/
     padding-top: 18px;
     padding-bottom: 42px;
     padding-left: 65px;
 }
-div[class^="content"]{
+div[class^="content"]{ /*стили которые описывают контейнеры которые содержат статьи*/
     display: inline-block;
     vertical-align: top;
 }
@@ -141,7 +133,16 @@ div.content4{
     width: 276px;
     padding-left: 45px;
 }
-div.footer div{
+div.footer{
+    background-color: #8C0A0D; /*заливает цветом подвал сайта и устанавливает его размеры*/
+    width: 100%;
+    height: 71px;
+    color: #DB8D52;
+    font-weight: bolder;
+    font-size: .85em;
+    line-height: 1.5em;
+}
+div.footer div{   /*контейнер который содержит стили подвала сайта*/
     display: inline-block;
 }
 div.site{
