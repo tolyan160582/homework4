@@ -1,0 +1,175 @@
+body{
+    margin: 0 auto;
+}
+.header{                   
+    background-color: #8C0A0D;  /*заливает цветом шапку сайта*/
+    width: 100%;
+    height: 71px;    
+}
+.main_conteiner{ 
+    background: url(image/Слой\ 15@1X.png);
+    background-size: cover;    
+    width:100% ;
+}
+.img_conteiner{
+    background-image: url(image/Прямоугольник\ 3@1X.png);
+    background-size: cover;
+    width: 100%;
+    height: calc(100%-(71px*2));
+  }
+.footer{
+    background-color: #8C0A0D; /*заливает цветом подвал сайта*/
+    width: 100%;
+    height: 71px;
+    color: #DB8D52;
+    font-weight: bolder;
+    font-size: .85em;
+    line-height: 1.5em;
+}   
+div.roshen_in_mir{
+    position: relative;
+    width: 1167px;
+    height: 336px;
+    left: 66px;
+    top: 24px;
+    background: url(image/Слой\ 5@1X.png) rgb(174, 174, 174);
+    background-size: contain;    
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-family: OpenSans,BellMT,AdobeInvisFont,MyriadPro-Regular;
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 3.3em;
+}
+.button{
+    position: absolute;
+    top: 107px;
+    left: 490px;
+    font-family: OpenSans,BellMT,AdobeInvisFont,MyriadPro-Regular;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    line-height: 2.5em;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px #bf670d;
+    background-color: #F6CC79;
+    width: 190px;
+    height: 43px;
+}
+a.link_button{
+    color: black;
+    text-decoration-line: none;
+}
+div.left_arrow, div.right_arrow{
+    position: relative;
+    top: 130px;
+}
+div.left_arrow{
+    float: left;
+    left: 20px;
+}
+div.right_arrow{
+    float: right;
+    right: 20px;
+}
+div[class^="header_item"]{
+    display: inline-block;
+    position: relative;
+    font-family: MinionPro-Bold,AdobeInvisFont,MyriadPro-Regular;
+    font-size:1.2em;
+    color: #FFE394;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+div.header_item1{
+    top: 15px;
+    padding-left: 67px;
+ }
+div.header_item2{
+    padding-left: 70px;
+}
+div.header_item8{
+    padding-left: 70px;
+}
+div.main_zagolovok{
+    padding-top: 54px;
+    padding-left: 65px;
+    font-weight: bold;
+}
+div[class^="zagolovok"]{
+    display: inline-block;
+    vertical-align: top;
+}
+div.zagolovok1{
+    width: 269px;    
+}
+div.zagolovok2{
+    width: 276px;    
+    padding-left: 29px;
+}
+div.zagolovok3{
+    width: 233px;
+    height: 89px;
+    padding-left: 23px;
+}
+div.zagolovok4{
+    width: 249px;
+    padding-left: 62px;
+}
+div.main_content{   
+    padding-top: 18px;
+    padding-bottom: 42px;
+    padding-left: 65px;
+}
+div[class^="content"]{
+    display: inline-block;
+    vertical-align: top;
+}
+div.content1{
+    width: 259px;  
+}
+div.content2{
+    width: 254px;
+    padding-left: 38px;   
+}
+div.content3{
+    width: 252px;
+    padding-left: 44px;
+}
+div.content4{
+    width: 276px;
+    padding-left: 45px;
+}
+div.footer div{
+    display: inline-block;
+}
+div.site{
+    width: 192px;
+    padding-left: 67px;
+    padding-top: 30px;
+}
+div.adress{
+    width: 148px;
+    padding-left: 102px;
+    padding-top: 10px;
+}
+div.telefon{
+    width: 144px;
+    padding-left: 149px;
+    padding-top: 10px;
+    text-align: right;
+}
+div.mail{
+    width: 138px;
+    padding-left: 155px;
+    padding-top: 10px;
+}
+div.icon1{
+    padding-left: 69px;
+    padding-right: 13px;
+}
+.link_footer{
+    text-decoration: none;
+    color: #DB8D52;
+}

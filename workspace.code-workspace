@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\проекты javaScript"
+		},
+		{
+			"path": "..\\..\\Новая папка"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "homework_html"
+	}
+}
