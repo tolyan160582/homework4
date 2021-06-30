@@ -14,6 +14,13 @@ div[class^="header_item"]{ /*контейнер который содержит 
     color: #FFE394;
     padding-left: 20px;
     text-transform: uppercase;
+    transition: all 0.7s linear;
+}
+div[class^="header_item"]:hover{ /*меняет цвет ссылки при наведении курсора мышки*/
+    color: red;
+}   
+div[class^="header_item"]:active{  /*меняет размер ссылки при нажатии на нее мышкой*/
+    transform: scale(1.3) translateY(1.5rem);    
 }
 div.header_item1{ /*элемент header*/
     top: 15px;
