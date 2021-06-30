@@ -32,6 +32,9 @@ div.header_item2{ /*элемент header*/
 div.header_item8{  /*элемент header*/
     padding-left: 70px;
 }
+.link_header{
+    text-decoration: none;
+   }
 
 .main_conteiner{              /*добавляет для главного контейнера фон и устанавливает размеры по ширине*/
     background: url(image/Слой\ 15@1X.png);
