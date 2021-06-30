@@ -32,7 +32,7 @@ div.header_item2{ /*элемент header*/
 div.header_item8{  /*элемент header*/
     padding-left: 70px;
 }
-.link_header{
+a.link_header{
     text-decoration: none;
    }
 
